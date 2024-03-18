@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+
+     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
+     
+      <!-- <link href="./dist/output.css" rel="stylesheet" /> -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+         tailwind.config = {
+            theme: {
+               extend: {
+                  colors: {
+                     clifford: '#da373d',
+                  }
+               }
+            }
+         }
+      </script>
+      <!-- <link href="./src/input.css" rel="stylesheet" /> -->
+
+   </head>
+   <body class=" w-full px-8 ">
+      <div class="  ">
+         <header
+            class="  "
+         >
+         <div class="flex justify-between ">
+
+
+            <div class="font-bold">Lugar</div>
+            <div class="hidden md:flex gap-5">
+               <a href="#" class="cursor-pointer font-light">Home</a>
+               <a href="#" class="cursor-pointer font-light">About</a>
+               <a href="#" class="cursor-pointer font-light">Project</a>
+               <a href="#" class="cursor-pointer font-light">Contact</a>
+            </div>
+            <div class="flex md:hidden">menu</div>
+         </div>
+         </header>
+         <section class="">
+            <div class="">
+               <div
+                  class="bg-[url('/assets/img/hero.png')] bg-right min-h-[90vh] bg-cover bg-no-repeat flex items-center"
+               >
+                  <div class="wrapper max-w-[700px]">
+                     <div class="font-bold text-xl">
+                        A home is built with love and dreams
+                     </div>
+                     <div>Real estate farm that makes your dreams true</div>
+                     <div class="flex gap-5">
+                        <div
+                           class="bg-black text-white px-3 flex justify-center items-center py-2 min-h-[50px] min-w-[110px] hover:opacity-50 duration-300 cursor-pointer"
+                        >
+                           Our projects
+                        </div>
+                        <div
+                           class="bg-transparent border border-black border-solid px-3 flex justify-center items-center py-2 min-h-[50px] min-w-[110px] hover:opacity-50 duration-300 cursor-pointer"
+                        >
+                           Contact us
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="wrapper grid grid-cols-1 md:grid-cols-2 gap-5">
+               <img src="./assets/img/award.png" alt="" />
+               <div class="flex flex-col justify-center gap-[40px]">
+                  <div class="text-lg font-bold">
+                     Award winning real estate company in Dubai
+                  </div>
+                  <div class="text-[18px] text-gray-400">
+                     Semper arcu mauris aliquam lacus. Massa erat vitae ultrices
+                     pharetra scelerisque. Ipsum, turpis facilisis tempor
+                     pulvinar in lobortis ornare magna.
+                  </div>
+                  <div class="flex flex-col justify-center  sm:flex-row gap-5">
+                     <div class="flex flex-col">
+                        <div class="text-blue-200">Previous projects</div>
+                        <div class="text-lg font-bold">34+</div>
+                     </div>
+                     <div class="flex flex-col">
+                        <div class="text-blue-200">Previous projects</div>
+                        <div class="text-lg font-bold">34+</div>
+                     </div>
+                     <div class="flex flex-col">
+                        <div class="text-blue-200">Previous projects</div>
+                        <div class="text-lg font-bold">34+</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="wrapper">
+               <div class="flex justify-between items-center">
+                  <div>
+                     <div class="text-lg">Ongoing projects</div>
+                     <div>
+                        Turpis facilisis tempor pulvinar in lobortis ornare
+                        magna.
+                     </div>
+                  </div>
+
+                  <div class="flex">
+                     <div class="swiper-catalog-prev">
+                        <img class="h-10 w-10 object-contain" src="./assets/img/icons/back.png" alt="" />
+                     </div>
+                     <div class="swiper-catalog-next">
+                        <img class="h-10 w-10 object-contain" src="./assets/img/icons/next.png" alt="" />
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper swiper-catalog h-[60vh]">
+                  <div class="swiper-wrapper">
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+                     <div class="relative swiper-slide  h-[50vh] w-[350px]">
+                        <img
+                           src="./assets/img/catalog/1.png"
+                           class="w-full h-full object-cover"
+                           alt=""
+                        />
+                        <div
+                           class="absolute -bottom-10 w-[80%] z-20 p-5 shadow-lg left-1/2 transform -translate-x-1/2 bg-white"
+                        >
+                           <div class="font-bold">Vintage Villa</div>
+                           <div>2715 Ash Dr. San Jose, Dubai</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+            <div class="wrapper grid grid-cols-1 md:grid-cols-2 gap-5">
+               <img src="./assets/img/review/1.png" alt="" />
+               <div class="flex flex-col justify-center gap-[10px]">
+                  <div class="text-md font-bold">
+                     Dream house isn’t dream anymore
+                  </div>
+                  <div class="text-sm font-light">
+                     Semper arcu mauris aliquam lacus. Massa erat vitae ultrices
+                     pharetra scelerisque. Ipsum, turpis facilisis tempor
+                     pulvinar.
+                  </div>
+                  <div class="text-sm font-bold">Brooklyn Simmons</div>
+                  <div>Artist</div>
+               </div>
+            </div>
+         </section>
+
+         <section>
+            <div class="wrapper grid grid-cols-1 md:grid-cols-2 gap-5">
+               <img src="./assets/img/catalog/3.png" alt="" />
+               <div class='self-center'>
+
+               <div class="text-lg font-bold">Contact us</div>
+               <div class="text-gray-300">Turpis facilisis tempor pulvinar in lobortis ornare magna.</div>
+                  <form  class="grid  gap-5 content-center grid-cols-2">
+                     <input
+                        class="col-span-2 h-[50px] bg-white border border-solid text-slate-300 border-black md:col-span-1"
+                        placeholder="First name"
+                        type="text"
+                     />
+                     <input
+                        class="col-span-2 h-[50px] bg-white border border-solid text-slate-300 border-black md:col-span-1"
+                        placeholder="Last name"
+                        type="text"
+                     />
+                     <input
+                        class="col-span-2 h-[50px] bg-white border border-solid text-slate-300 border-black md:col-span-1"
+                        placeholder="email address"
+                        type="text"
+                     />
+                     <input
+                        class="col-span-2 h-[50px] bg-white border border-solid text-slate-300 border-black md:col-span-1"
+                        placeholder="Phone number"
+                        type="text"
+                     />
+                     <input
+                        class="col-span-2 h-[100px] bg-white border border-solid text-slate-300 border-black"
+                        placeholder="description"
+                        type="text"
+                     />
+                     <button class="bg-black text-white px-3  py-2 h-[50px] max-w-[110px] hover:opacity-50 duration-300 inline-block cursor-pointer"" type="submit">get quote</button>
+                  </form>
+               </div>
+
+            </div>
+         </section>
+         <footer class="bg-[#1E3240] p-5 text-white">
+            <div class="wrapper gap-10  flex w-full flex-col">
+
+
+               <div class=" flex gap-5 flex-wrap justify-between">
+                  <ul>
+                     <li>Lugar</li>
+                     <li>2118 Thornridge Cir. 
+   Dubai, UAE 35624</li>
+   <li>+33 415 65356 - 9</li>
+   <li>contact@lugar.com</li>
+                  </ul>
+                  <div class="flex gap-5" >
+                     <ul>
+                        <li>Quick links</li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Project</li>
+                        <li>Contact</li>
+                     </ul>
+                     <ul>
+                        <li>Legal Links</li>
+                        <li>Terms</li>
+                        <li>Conditions</li>
+                        <li>Policy</li>
+                     </ul>
+                     <ul>
+                        <li>Social media</li>
+                        <li>Facebook</li>
+                        <li>LinkedIn</li>
+                        <li>YouTube</li>
+                        <li>Twitter</li>
+                     </ul>
+                  </div>
+               </div>
+               <div>Copyright @ 2022 Lugar Inc.</div>
+            </div>
+         </footer>
+      </div>
+
+
+   </body>
+</html>
